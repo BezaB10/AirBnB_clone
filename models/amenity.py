@@ -1,15 +1,12 @@
 #!/usr/bin/python3
-"""
-Module for Amenity class
-"""
+""" Amenity class """
+
+import uuid
+from datetime import datetime
+from models import storage
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """Custom amenity class
-
-    Attributes:
-        name(str): amenity name
-
-    """
+    """ Amenity class """
     name = ""
